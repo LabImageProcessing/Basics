@@ -18,6 +18,6 @@ print("default", img.shape, "color", bgr.shape, "unchanged", bgra.shape)
 
 cv2.imshow('bgr', bgr)
 cv2.imshow('bgra', bgra)
-cv2.imshow('alpha', bgra[:,:,3])  # 알파 채널(마스크 채널)만 표시
+cv2.imshow('alpha', bgra[:,:,2])  # 알파 채널(마스크 채널)만 표시
 cv2.waitKey(0)
 cv2.destroyAllWindows()
