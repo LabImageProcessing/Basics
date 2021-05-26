@@ -23,6 +23,6 @@ dst = cv2.warpAffine(img, mtrx, (int(cols*1.5), rows))
 
 # 결과 출력
 cv2.imshow('origin',img)
-cv2.imshow('affin', dst)
+cv2.imshow('affine', dst)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
